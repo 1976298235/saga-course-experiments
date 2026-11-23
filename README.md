@@ -1,2 +1,22 @@
-# saga-course-experiments
-Reproducibility materials for the SAGA course paper
+# SAGA 课程论文实验复现
+
+此仓库提供论文第 6 节的撤销仿真和本地密码操作微基准。
+
+## 运行
+
+使用 Python 3.12。在仓库目录中运行：
+
+```sh
+python3 -m pip install numpy
+python3 sim_revocation.py
+python3 microbench.py
+```
+
+撤销仿真需要 NumPy，微基准只用 Python 标准库。脚本把结果写到脚本所在目录，覆盖同名结果文件。
+
+- `results.json` 是撤销仿真和公式复算的归档结果。仿真固定随机种子，并额外生成可读的 `results.md`。
+- `microbench.json` 是微基准的归档结果。计时随机器和运行环境变化。
+
+## 实验范围
+
+撤销仿真每组采样 20,000 次，请求速率为每分钟 6 次，配额为 100。拉取情形没有用封禁时的剩余令牌寿命截断同步等待，配额耗尽时刻按剩余配额和平均速率近似。微基准用 MODP 模幂近似原协议的 X25519，测的是本地操作。仓库对应论文中的机制仿真与微基准，SAGA-R 的部署验证留待原型测试。

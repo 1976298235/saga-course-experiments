@@ -1,0 +1,47 @@
+{
+  "dh_keypair": {
+    "mean_ms": 1.5693,
+    "median_ms": 1.5696,
+    "p95_ms": 1.5889
+  },
+  "dh_shared_secret": {
+    "mean_ms": 2.0825,
+    "median_ms": 2.0763,
+    "p95_ms": 2.1125
+  },
+  "hkdf_derive": {
+    "mean_ms": 0.0016,
+    "median_ms": 0.0016,
+    "p95_ms": 0.0017
+  },
+  "token_seal": {
+    "mean_ms": 0.0153,
+    "median_ms": 0.0152,
+    "p95_ms": 0.0156
+  },
+  "token_open": {
+    "mean_ms": 0.0146,
+    "median_ms": 0.0145,
+    "p95_ms": 0.0149
+  },
+  "policy_match": {
+    "mean_ms": 0.0032,
+    "median_ms": 0.0031,
+    "p95_ms": 0.0033
+  },
+  "json_encode_meta": {
+    "mean_ms": 0.0015,
+    "median_ms": 0.0015,
+    "p95_ms": 0.0016
+  },
+  "setup_initiator_total": {
+    "mean_ms": 2.1334,
+    "median_ms": 2.1214,
+    "p95_ms": 2.2038
+  },
+  "setup_receiver_total": {
+    "mean_ms": 2.1199,
+    "median_ms": 2.1151,
+    "p95_ms": 2.1912
+  }
+}

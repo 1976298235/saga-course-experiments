@@ -1,0 +1,372 @@
+{
+  "params": {
+    "lambda_req_per_min": 6.0,
+    "qmax": 100,
+    "trials": 20000
+  },
+  "tables": {
+    "residual_exposure": [
+      {
+        "L_hours": 1,
+        "baseline": {
+          "mean_residual_requests": 45.21,
+          "p95_residual_requests": 94,
+          "max_residual_requests": 100,
+          "mean_exposure_seconds": 453.44,
+          "p95_exposure_seconds": 940.0,
+          "p_zero_residual": 0.0115
+        },
+        "SAGA-R(Δ=10s)": {
+          "mean_residual_requests": 0.49,
+          "p95_residual_requests": 2,
+          "max_residual_requests": 6,
+          "mean_exposure_seconds": 4.96,
+          "p95_exposure_seconds": 9.52,
+          "p_zero_residual": 0.6348
+        },
+        "SAGA-R(Δ=60s)": {
+          "mean_residual_requests": 2.905,
+          "p95_residual_requests": 7,
+          "max_residual_requests": 15,
+          "mean_exposure_seconds": 29.35,
+          "p95_exposure_seconds": 56.84,
+          "p_zero_residual": 0.1731
+        },
+        "SAGA-R(Δ=600s)": {
+          "mean_residual_requests": 23.799,
+          "p95_residual_requests": 54,
+          "max_residual_requests": 90,
+          "mean_exposure_seconds": 241.28,
+          "p95_exposure_seconds": 540.0,
+          "p_zero_residual": 0.0279
+        },
+        "short_token(L=1min)": {
+          "mean_residual_requests": 2.895,
+          "p95_residual_requests": 7,
+          "max_residual_requests": 16,
+          "mean_exposure_seconds": 29.44,
+          "p95_exposure_seconds": 56.87,
+          "p_zero_residual": 0.1709
+        }
+      },
+      {
+        "L_hours": 3,
+        "baseline": {
+          "mean_residual_requests": 48.241,
+          "p95_residual_requests": 95,
+          "max_residual_requests": 100,
+          "mean_exposure_seconds": 483.07,
+          "p95_exposure_seconds": 950.0,
+          "p_zero_residual": 0.0114
+        },
+        "SAGA-R(Δ=10s)": {
+          "mean_residual_requests": 0.497,
+          "p95_residual_requests": 2,
+          "max_residual_requests": 6,
+          "mean_exposure_seconds": 4.96,
+          "p95_exposure_seconds": 9.52,
+          "p_zero_residual": 0.6313
+        },
+        "SAGA-R(Δ=60s)": {
+          "mean_residual_requests": 2.889,
+          "p95_residual_requests": 7,
+          "max_residual_requests": 15,
+          "mean_exposure_seconds": 29.24,
+          "p95_exposure_seconds": 56.86,
+          "p_zero_residual": 0.1774
+        },
+        "SAGA-R(Δ=600s)": {
+          "mean_residual_requests": 23.503,
+          "p95_residual_requests": 53,
+          "max_residual_requests": 81,
+          "mean_exposure_seconds": 238.42,
+          "p95_exposure_seconds": 539.27,
+          "p_zero_residual": 0.0273
+        },
+        "short_token(L=1min)": {
+          "mean_residual_requests": 2.91,
+          "p95_residual_requests": 7,
+          "max_residual_requests": 15,
+          "mean_exposure_seconds": 29.29,
+          "p95_exposure_seconds": 56.91,
+          "p_zero_residual": 0.1727
+        }
+      },
+      {
+        "L_hours": 6,
+        "baseline": {
+          "mean_residual_requests": 49.323,
+          "p95_residual_requests": 95,
+          "max_residual_requests": 100,
+          "mean_exposure_seconds": 493.39,
+          "p95_exposure_seconds": 950.0,
+          "p_zero_residual": 0.0109
+        },
+        "SAGA-R(Δ=10s)": {
+          "mean_residual_requests": 0.507,
+          "p95_residual_requests": 2,
+          "max_residual_requests": 6,
+          "mean_exposure_seconds": 4.99,
+          "p95_exposure_seconds": 9.5,
+          "p_zero_residual": 0.6284
+        },
+        "SAGA-R(Δ=60s)": {
+          "mean_residual_requests": 2.934,
+          "p95_residual_requests": 7,
+          "max_residual_requests": 15,
+          "mean_exposure_seconds": 29.34,
+          "p95_exposure_seconds": 56.85,
+          "p_zero_residual": 0.1754
+        },
+        "SAGA-R(Δ=600s)": {
+          "mean_residual_requests": 23.522,
+          "p95_residual_requests": 54,
+          "max_residual_requests": 82,
+          "mean_exposure_seconds": 238.35,
+          "p95_exposure_seconds": 536.42,
+          "p_zero_residual": 0.0267
+        },
+        "short_token(L=1min)": {
+          "mean_residual_requests": 2.912,
+          "p95_residual_requests": 7,
+          "max_residual_requests": 17,
+          "mean_exposure_seconds": 29.34,
+          "p95_exposure_seconds": 57.02,
+          "p_zero_residual": 0.1793
+        }
+      },
+      {
+        "L_hours": 12,
+        "baseline": {
+          "mean_residual_requests": 49.467,
+          "p95_residual_requests": 95,
+          "max_residual_requests": 100,
+          "mean_exposure_seconds": 494.75,
+          "p95_exposure_seconds": 950.0,
+          "p_zero_residual": 0.0097
+        },
+        "SAGA-R(Δ=10s)": {
+          "mean_residual_requests": 0.49,
+          "p95_residual_requests": 2,
+          "max_residual_requests": 5,
+          "mean_exposure_seconds": 4.99,
+          "p95_exposure_seconds": 9.52,
+          "p_zero_residual": 0.6357
+        },
+        "SAGA-R(Δ=60s)": {
+          "mean_residual_requests": 2.914,
+          "p95_residual_requests": 7,
+          "max_residual_requests": 19,
+          "mean_exposure_seconds": 29.49,
+          "p95_exposure_seconds": 56.8,
+          "p_zero_residual": 0.1751
+        },
+        "SAGA-R(Δ=600s)": {
+          "mean_residual_requests": 23.6,
+          "p95_residual_requests": 54,
+          "max_residual_requests": 78,
+          "mean_exposure_seconds": 238.89,
+          "p95_exposure_seconds": 541.22,
+          "p_zero_residual": 0.0276
+        },
+        "short_token(L=1min)": {
+          "mean_residual_requests": 2.875,
+          "p95_residual_requests": 7,
+          "max_residual_requests": 15,
+          "mean_exposure_seconds": 29.32,
+          "p95_exposure_seconds": 56.97,
+          "p_zero_residual": 0.1767
+        }
+      },
+      {
+        "L_hours": 24,
+        "baseline": {
+          "mean_residual_requests": 49.673,
+          "p95_residual_requests": 95,
+          "max_residual_requests": 100,
+          "mean_exposure_seconds": 496.78,
+          "p95_exposure_seconds": 950.0,
+          "p_zero_residual": 0.0096
+        },
+        "SAGA-R(Δ=10s)": {
+          "mean_residual_requests": 0.49,
+          "p95_residual_requests": 2,
+          "max_residual_requests": 7,
+          "mean_exposure_seconds": 4.98,
+          "p95_exposure_seconds": 9.51,
+          "p_zero_residual": 0.6391
+        },
+        "SAGA-R(Δ=60s)": {
+          "mean_residual_requests": 2.915,
+          "p95_residual_requests": 7,
+          "max_residual_requests": 15,
+          "mean_exposure_seconds": 29.3,
+          "p95_exposure_seconds": 56.98,
+          "p_zero_residual": 0.1726
+        },
+        "SAGA-R(Δ=600s)": {
+          "mean_residual_requests": 23.516,
+          "p95_residual_requests": 54,
+          "max_residual_requests": 82,
+          "mean_exposure_seconds": 238.3,
+          "p95_exposure_seconds": 540.0,
+          "p_zero_residual": 0.0278
+        },
+        "short_token(L=1min)": {
+          "mean_residual_requests": 2.88,
+          "p95_residual_requests": 7,
+          "max_residual_requests": 15,
+          "mean_exposure_seconds": 29.49,
+          "p95_exposure_seconds": 56.96,
+          "p_zero_residual": 0.1747
+        }
+      }
+    ],
+    "control_plane_load": [
+      {
+        "L_hours": 1,
+        "otk_requests_per_agent_day": 24.0,
+        "SAGA-R(Δ=10s)_sync_per_day": 8640.0,
+        "SAGA-R(Δ=10s)_total_per_day": 8664.0,
+        "SAGA-R(Δ=60s)_sync_per_day": 1440.0,
+        "SAGA-R(Δ=60s)_total_per_day": 1464.0,
+        "SAGA-R(Δ=600s)_sync_per_day": 144.0,
+        "SAGA-R(Δ=600s)_total_per_day": 168.0,
+        "short_token(L=1min)_otk_per_day": 1440.0
+      },
+      {
+        "L_hours": 6,
+        "otk_requests_per_agent_day": 4.0,
+        "SAGA-R(Δ=10s)_sync_per_day": 8640.0,
+        "SAGA-R(Δ=10s)_total_per_day": 8644.0,
+        "SAGA-R(Δ=60s)_sync_per_day": 1440.0,
+        "SAGA-R(Δ=60s)_total_per_day": 1444.0,
+        "SAGA-R(Δ=600s)_sync_per_day": 144.0,
+        "SAGA-R(Δ=600s)_total_per_day": 148.0,
+        "short_token(L=1min)_otk_per_day": 1440.0
+      },
+      {
+        "L_hours": 24,
+        "otk_requests_per_agent_day": 1.0,
+        "SAGA-R(Δ=10s)_sync_per_day": 8640.0,
+        "SAGA-R(Δ=10s)_total_per_day": 8641.0,
+        "SAGA-R(Δ=60s)_sync_per_day": 1440.0,
+        "SAGA-R(Δ=60s)_total_per_day": 1441.0,
+        "SAGA-R(Δ=600s)_sync_per_day": 144.0,
+        "SAGA-R(Δ=600s)_total_per_day": 145.0,
+        "short_token(L=1min)_otk_per_day": 1440.0
+      }
+    ],
+    "scale_1m_agents": [
+      {
+        "agents": 1000000,
+        "L_hours": 1,
+        "scheme": "SAGA-R(Δ=60s)",
+        "provider_qps": 16944.4,
+        "provider_req_per_min": 1016667.0
+      },
+      {
+        "agents": 1000000,
+        "L_hours": 6,
+        "scheme": "SAGA-R(Δ=60s)",
+        "provider_qps": 16713.0,
+        "provider_req_per_min": 1002778.0
+      },
+      {
+        "agents": 1000000,
+        "L_hours": 24,
+        "scheme": "SAGA-R(Δ=60s)",
+        "provider_qps": 16678.2,
+        "provider_req_per_min": 1000694.0
+      }
+    ]
+  },
+  "recheck": {
+    "token_setup_crypto_ms_paper": 7.0,
+    "task_overhead_ratio": {
+      "Calendar": 0.325,
+      "Email": 0.586,
+      "Writing": 0.045
+    },
+    "capacity": [
+      {
+        "throughput_req_per_min": 178000,
+        "label": "10 sharders, RAFT(3)",
+        "L_hours": 1,
+        "agents": 10680000
+      },
+      {
+        "throughput_req_per_min": 178000,
+        "label": "10 sharders, RAFT(3)",
+        "L_hours": 6,
+        "agents": 64080000
+      },
+      {
+        "throughput_req_per_min": 178000,
+        "label": "10 sharders, RAFT(3)",
+        "L_hours": 12,
+        "agents": 128160000
+      },
+      {
+        "throughput_req_per_min": 178000,
+        "label": "10 sharders, RAFT(3)",
+        "L_hours": 24,
+        "agents": 256320000
+      },
+      {
+        "throughput_req_per_min": 204000,
+        "label": "5-node no-shard",
+        "L_hours": 1,
+        "agents": 12240000
+      },
+      {
+        "throughput_req_per_min": 204000,
+        "label": "5-node no-shard",
+        "L_hours": 6,
+        "agents": 73440000
+      },
+      {
+        "throughput_req_per_min": 204000,
+        "label": "5-node no-shard",
+        "L_hours": 12,
+        "agents": 146880000
+      },
+      {
+        "throughput_req_per_min": 204000,
+        "label": "5-node no-shard",
+        "L_hours": 24,
+        "agents": 293760000
+      }
+    ],
+    "amortized_overhead_ms": [
+      {
+        "Qmax": 1,
+        "US-West": 37.0,
+        "US-East": 67.0,
+        "EU": 147.0,
+        "Asia": 207.0
+      },
+      {
+        "Qmax": 10,
+        "US-West": 3.7,
+        "US-East": 6.7,
+        "EU": 14.7,
+        "Asia": 20.7
+      },
+      {
+        "Qmax": 20,
+        "US-West": 1.85,
+        "US-East": 3.35,
+        "EU": 7.35,
+        "Asia": 10.35
+      },
+      {
+        "Qmax": 30,
+        "US-West": 1.23,
+        "US-East": 2.23,
+        "EU": 4.9,
+        "Asia": 6.9
+      }
+    ]
+  }
+}
